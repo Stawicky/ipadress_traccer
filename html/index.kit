@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/css/style.min.css" />
+
+    <title>IP Address Tracker</title>
+  </head>
+  <body>
+    <section>
+      <div class="background">
+        <div class="head-pattern"></div>
+        <div class="map" id="map"></div>
+      </div>
+      <div class="main-panel">
+        <h1>IP Address Tracker</h1>
+        <div class="input-area">
+          <input
+            type="text"
+            class="input-ip"
+            placeholder="Search for any IP address or domain"
+          />
+          <button class="arrow">
+            <img src="src/img/icon-arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="info">
+          <p class="p-info">IP Address</p>
+          <p class="p-date ipadress"></p>
+          <p class="p-info">Location</p>
+          <p class="p-date adress"></p>
+          <p class="p-info">Timezone UTC</p>
+          <p class="p-date timezone"></p>
+          <p class="p-info">ISP</p>
+          <p class="p-date isp"></p>
+        </div>
+      </div>
+    </section>
+
+    <script src="dist/js/app2.js"></script>
+  </body>
+</html>
