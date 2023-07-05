@@ -28,7 +28,7 @@ section {
 }
 
 .head-pattern {
-  background-image: url("/src/img/pattern-bg-mobile.png");
+  background-image: url("../img/pattern-bg-mobile.png");
   background-position: center;
   background-size: cover;
 }
@@ -130,7 +130,7 @@ section {
   }
   .main-panel {
     position: relative;
-    background-image: url("/src/img/pattern-bg-desktop.png");
+    background-image: url("../img/pattern-bg-desktop.png");
     background-position: center;
     background-size: cover;
     padding: 0 0 0 0;
